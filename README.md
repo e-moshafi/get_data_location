@@ -24,8 +24,8 @@ you can getting Informational location from Longitude &latitude using this small
 require "gdl.php";
 ``````
 2. add class to project
-```````
-$jdl=new jdl(//latitude,//longitude)
+```````php
+$jdl=new jdl(//latitude,//longitude);
 //latitude
 echo $jdl->latitude;
 //longitude
