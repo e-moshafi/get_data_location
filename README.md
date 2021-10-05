@@ -25,31 +25,31 @@ require "gdl.php";
 ``````
 2. add class to project
 ```````php
-$jdl=new jdl(//latitude,//longitude);
+$jdl=new gdl(//latitude,//longitude);
 //latitude
-echo $jdl->latitude;
+echo $gdl->latitude;
 //longitude
-echo $jdl->longitude;
+echo $gdl->longitude;
 //continent
-echo $jdl->continent;
+echo $gdl->continent;
 //continent Code
-echo $jdl->continentCode;
+echo $gdl->continentCode;
 //country Name
-echo $jdl->countryName;
+echo $gdl->countryName;
 //country Code
-echo $jdl->countryCode;
+echo $gdl->countryCode;
 //principal Subdivision
-echo $jdl->principalSubdivision
+echo $gdl->principalSubdivision
 //principal Subdivision Code
-echo $jdl->principalSubdivisionCode;
+echo $gdl->principalSubdivisionCode;
 //city
-echo $jdl->city;
+echo $gdl->city;
 //locality 
-echo $jdl->locality
+echo $gdl->locality
 //postcode
-echo $jdl->postcode
+echo $gdl->postcode
 // country International Organization for Standardization name
-echo $jdl->isoname
+echo $gdl->isoname
 ```````
 ***I hope you enjoy it***
 
