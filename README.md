@@ -1,4 +1,4 @@
-                            `get data location(README.mddl)`
+                                                        `get data location(gdl)`
 `about project:`
 you can getting Informational location from Longitude &latitude using this small library.
 
