@@ -1,8 +1,11 @@
 <?php
+//create by erfanmoshafi.com
 class gdl{
 public function __construct($latitude,$longitude){
+    //create data from api 
     $url = 'https://api.bigdatacloud.net/data/reverse-geocode-client?latitude='.$latitude.'&longitude='.$longitude.'&localityLanguage=en';
     $json = file_get_contents($url);
+    //data decode
     $data = json_decode($json,true);
     $this->latitude=$data['latitude'];
     $this->longitude=$data['longitude'];
